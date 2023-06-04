@@ -1,0 +1,38 @@
+			ANGULAR 
+		
+node_modules -> node m packages sary isme hty hain
+
+src (important) -> index.html -> entry point ..main homepage type
+                favicon.ico -> angular ka icon
+                app-> routing module -> routing sy deal
+ 		app.component ->  
+
+
+gitignore -> related to github
+angular.json -> meta data type similar to packges.json
+karma.config
+packages.json -> npm init isme sara wohi meta data jesy node m
+read me.md -> puch on git tab kaam aati
+tsconfig.spec.json -> for testing (automated)
+
+
+to run: cd kr k project k folder m jana
+ng serve (local host port 4200 p run hga)
+
+----------------------------------
+component ki 4 files -component.cs -component.html -appcomponent.specs.ts(testing) appcomponent.ts(typescript-> logic for javascript)
+
+app root -> app component.html m sary html likhi wi
+selector m jo hta na component ki ts file m .. wou likhty index.html  ki body m
+
+to add new component
+ng generate component component_name
+
+----angular js vs angular2
+angular js had javascript based 1st version
+major change m type script p ly gye thy
+ 
+
+add bootstrap css and js in architect m style and script
+
+<h2>This is my {{title}}</h2>   --> javascript k through jo title variable m store hga wou display hjayega
