@@ -1,0 +1,256 @@
+/* CSS for portfolio */
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    -webkit-font-smoothing: antialiased;
+}
+
+header{
+    height: 100vh;
+    /* width: 100%; */
+    background: #1F031F;
+    /* #1F031F#080008; 664171 */
+    position: relative;
+    padding: 0 2%;
+    margin: 0;
+    font-family: "Roboto Slab",serif;
+    
+}
+.myProf{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+header h2{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5rem;
+} 
+header h2 span{
+    color:cornflowerblue;
+    margin: 27px 30px;
+    padding:20 5%
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navvlinks{
+    padding: 28px 0;
+    font-size: 20px;
+}
+.navvlinks li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.navvlinks li a{
+    text-decoration: none;
+    color: aqua;
+    padding: 5px 0;
+    position: relative;
+}
+.navvlinks li a::after{
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height:2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.navvlinks li a:hover::after{
+    width: 100%;
+}
+
+#pic{
+    border-radius:100%;
+    width:100px;
+    border: 1px solid white;
+    border-color: white;
+}
+
+#aboutpic{
+        width: 200px ;
+        height: 10%;  
+        border: 2px solid red;    
+        object-fit: none;  
+        object-position: center center;  
+}
+
+#fast{
+    width: 190px ;
+    border-radius:100%;
+    height: 10%;      
+    object-fit: none;  
+    object-position: center center;  
+}
+
+
+section{
+            padding: 6rem;
+            background: #1F031F;
+}
+section.About h1{
+            margin-bottom: 1rem;
+            font-size: 1.6rem;
+            font-weight: 600;
+            text-align: center;
+            color: orange;
+}
+section.About h1 span{
+            color: orange;
+}
+section.About h3{
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            text-align: center;
+            color: white;
+}
+section.About p{
+            font-family: 'Lato', sans-serif;
+            color: white;
+            text-align: center;
+            line-height: 1.9rem;
+            margin-bottom: 2rem;
+}
+
+section.services{
+    background:  #1F031F;
+    color:white
+}
+.services-head{
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5rem;
+}
+section.services h1{
+    color:orange
+}
+.services-head + p{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 6rem;
+    font-weight: 400;
+}
+.card img{
+    width: 150px;
+    
+    background:white;
+}
+section.services .card-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+}
+section.services .card-grid .card{
+    padding: 3rem 2rem;
+    position: relative;
+    text-align: center;
+    transition: all .2s ease;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+section.Academics{
+    background: #1F031F;
+}
+
+section.Academics h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    color: orange;
+}
+section.Academics h1 span{
+    color: orange;
+}
+section.Academics h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+section.Academics p{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 1.9rem;
+    margin-bottom: 2rem;
+}
+section.Academics a{
+    color: #42b4d6;
+    text-decoration: none;
+    padding: 5px 0;
+    position: relative;
+}
+
+.courselinks1{
+    
+    font-size: 20px;
+    color: white;
+}
+.courselinks1 li{
+    display:inline;
+    margin: 0 35px;
+    padding:0 36%
+}
+.courselinks2{
+    
+    font-size: 10px;
+    color: white;
+}
+
+.courselinks2 li{
+    display:inline;
+    margin: 0 35px;
+    padding:0 36%
+}
+
+.footer{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    background: #664171;
+    margin: 0 0px;
+}
+.footer a{
+    color: #42b4d6;
+    text-decoration: none;
+    padding: 5px 0;
+    position: relative;
+    
+}
+.footer a::after{
+    content: '';
+    background:  chartreuse;
+    width: 0;
+    height:2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.footer a:hover::after{
+ width:100%
+}            

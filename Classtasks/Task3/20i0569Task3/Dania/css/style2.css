@@ -1,0 +1,122 @@
+/* CSS for timetable */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    -webkit-font-smoothing: antialiased;
+}
+table,th,td{
+    border:2px solid #55097B;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    color: #090A60;
+    background: #1FC0C4;
+}
+.timetable {
+    color: wheat;
+    font-weight: 900;
+    font-size: larger;
+    margin:10px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ #heading1{
+    color:  #580B7F;
+ }
+
+#pic{
+    border-radius:100%;
+    width:100px;
+    border: 1px solid white;
+    border-color: white;
+}
+header{
+    height: 100vh;
+    /* width: 100%; */
+    background: #1F031F;
+    /* #1F031F#080008; 664171 */
+    position: relative;
+    padding: 0 2%;
+    margin: 0;
+    font-family: "Roboto Slab",serif;
+    
+}
+
+header h2{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5rem;
+} 
+header h2 span{
+    color:cornflowerblue;
+    margin: 27px 30px;
+    padding:20 5%
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navvlinks{
+    padding: 28px 0;
+    font-size: 20px;
+}
+.navvlinks li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.navvlinks li a{
+    text-decoration: none;
+    color: aqua;
+    padding: 5px 0;
+    position: relative;
+}
+.navvlinks li a::after{
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height:2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.navvlinks li a:hover::after{
+    width: 100%;
+}
+
+.footer{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    background: #664171;
+    margin: 0 0px;
+}
+.footer a{
+    color: #42b4d6;
+    text-decoration: none;
+    padding: 5px 0;
+    position: relative;
+    
+}
+.footer a::after{
+    content: '';
+    background:  chartreuse;
+    width: 0;
+    height:2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.footer a:hover::after{
+ width:100%
+}   
