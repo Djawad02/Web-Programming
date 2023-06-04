@@ -1,0 +1,8 @@
+<div class="container">
+   <br><br>
+   <h4>My blogs exclusively consists of following posts:</h4><br>
+     {{#each blogs }}
+     <a href="/blogpost/{{this.slug}}"> <h2>{{this.title}}</h2></a>
+   
+  {{/each}}
+</div>
