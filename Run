@@ -1,0 +1,16 @@
+npm init
+npm install/i
+npm install express
+Delete node module folder and again----- npm i
+npm i -g(global) nodemon
+npm install --save-dev nodemon
+npm uninstall nodemon
+npm i @angular/cli
+//pkg_loc.json actual versions of dependencies's dependency
+//export module
+
+//nodejs docs
+os module 
+path module
+file system module----readfile---writefile
+common js module vs es6 module
